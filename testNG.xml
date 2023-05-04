@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG">
+    <test parallel="methods" thread-count="2" name="D:\program\lab_tests\src\test\java\TestNG.java">
+        <classes>
+            <class name="TestNG">
+                <methods>
+                    <include name="testFunc"/>
+                    <include name="testRunge"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
